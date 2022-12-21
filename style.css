@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* styling for header only */
+header{
+    height: 10vh;
+    background-color: aqua;
+}
+header div p{
+    padding: 15px 0 0 0;
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*styling for main content */
+.book{
+    height: 170px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: brown;
+    text-align: center;
+}
+.book a{
+    text-decoration: none;
+    color: white;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    list-style-type: none;
+    justify-content: space-around;
+    height: 45px;
+}
+nav ul li a{
+    font-size: 25px;
+    padding: 0 10px 13px 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+div.book p{
+    position: inherit;
+    bottom: 1px;
+}
+div.book img{
+    height: 150px;
+    width: 90px;
+}
+nav ul li a:hover{
+    background-color: black;
+}
+/* style for footer only */
+
+footer{
+    background-color: rgb(194, 200, 206);
+    height: 15vh;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social span{
+    padding: 5px;
+}
+.social a img{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+.copyrights{
+    text-align: center;
+    padding: 10px;
+}
